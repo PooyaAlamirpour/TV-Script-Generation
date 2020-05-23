@@ -1,5 +1,5 @@
 [image1]: ./Images/Poster.jpg "Poster"
-
+[image2]: ./Image/Result.png "Result"
 ## Deep Learning: TV Script Generation RNN
 
 In this project, I'll generate Seinfeld TV scripts using RNNs. I'll be using a Seinfeld dataset of scripts from 9 seasons. The Neural Network I'll build will generate a new, "fake" TV script.
@@ -61,4 +61,6 @@ git clone https://github.com/PooyaAlamirpour/TV-Script-Generation.git
 cd TV-Script-Generation
 jupyter notebook
 ```
+The below image indicates the result
 
+![Sample Output][image2]

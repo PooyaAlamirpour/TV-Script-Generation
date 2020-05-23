@@ -32,12 +32,12 @@ Download the latest version of `miniconda` that matches your system.
 
 Before start to work you should define an **Environment** on the Anaconda. You can put this command either on the terminal window such CMD or in the **Anaconda Console Application**.
 
-	- __Linux__ or __Mac__: 
+* __Linux__ or __Mac__: 
 	```
 	conda create -n tv-script python=3.6
 	source activate tv-script
 	```
-	- __Windows__: 
+* __Windows__: 
 	```
 	conda create --name tv-script python=3.6
 	activate tv-script
@@ -45,11 +45,11 @@ Before start to work you should define an **Environment** on the Anaconda. You c
 	
 Next step is installing `PyTorch` and `torchvision`. 
 
-	- __Linux__ or __Mac__: 
+* __Linux__ or __Mac__: 
 	```
 	conda install pytorch torchvision -c pytorch 
 	```
-	- __Windows__: 
+* __Windows__: 
 	```
 	conda install pytorch -c pytorch
 	pip install torchvision
